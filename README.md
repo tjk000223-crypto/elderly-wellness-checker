@@ -1,1 +1,0 @@
-# elderly-wellness-checker

@@ -32,33 +32,6 @@
 系統需求
 Python 3.9+
 
-Webcam (若需即時偵測)
-
-安裝步驟
-克隆此專案：
-
-Bash
-
-git clone <你的 GitHub 專案網址>
-cd <專案資料夾>
-安裝必要依賴套件：
-
-Bash
-
-pip install -r requirements.txt
-🚀 使用說明
-分析單張圖片
-Bash
-
-python wellness_checker.py --image test_photo.jpg
-系統會自動產生一張標註過的圖片（例如：test_photo_annotated.jpg）並顯示健康摘要。
-
-開啟即時攝像頭監控
-Bash
-
-python wellness_checker.py --camera --duration 60
-這將啟動 60 秒的即時分析，並在結束後將數據存為 JSON 檔案。
-
 📊 技術架構
 
 MediaPipe: 用於高精度的臉部 468 個特徵點追蹤 。
